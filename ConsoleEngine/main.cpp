@@ -2,5 +2,6 @@
 
 int main()
 {
-	ConsoleEngine console(25, 25);
+	ConsoleEngine console(100, 25);
+	console.run();
 }

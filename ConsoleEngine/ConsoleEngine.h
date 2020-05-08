@@ -1,6 +1,7 @@
 #pragma 
 #include "Player.h"
 #include <Windows.h>
+#include <iostream>
 
 class ConsoleEngine
 {
@@ -31,7 +32,6 @@ private:
 	/*      Game functions      */
 	/*                          */
 	/****************************/
-
 private:
 	/****************************/
 	/*                          */
@@ -39,4 +39,8 @@ private:
 	/*                          */
 	/****************************/
 	Player player;
+	float fieldOfView;
+	int mapLenght;		//its a sqare so were only looking for 1 lenght
+	std::wstring map;
+	float depthIndex;
 };

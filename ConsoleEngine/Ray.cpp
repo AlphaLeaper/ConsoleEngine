@@ -1,6 +1,10 @@
 #include "Ray.h"
 #include <cmath>
 
+Ray::Ray(std::wstring map, Player player, float radian)
+{
+}
+
 float Ray::CalculateLenght()
 {
 	return std::sqrt(x * x + y * y);

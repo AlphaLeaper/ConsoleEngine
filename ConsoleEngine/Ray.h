@@ -1,7 +1,11 @@
 #pragma once
+#include "Player.h"
+#include <iostream>
 
 class Ray
 {
+public:
+	Ray(std::wstring map, Player player, float radian);
 private:
 	float CalculateLenght();
 public:
