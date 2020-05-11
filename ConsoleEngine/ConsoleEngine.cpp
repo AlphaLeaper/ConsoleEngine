@@ -95,7 +95,7 @@ void ConsoleEngine::ConposeFrame()
 		for (int y = 0; y < cellingPos; y++)
 			screen[x + y * screenWidth] = ' ';
 		for (int y = cellingPos; y < floorPos; y++)
-			screen[x + y * screenWidth] = 'O';
+			screen[x + y * screenWidth] = wchar_t(0x2588);
 		for (int y = floorPos; y < screenHeight; y++)
 			screen[x + y * screenWidth] = ' ';
 
